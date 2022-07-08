@@ -118,14 +118,28 @@ GOOD LUCK 😀
 
 //1
 
-const calcAverage = (a, b ,c) => (a, b, c) / 3;
-console.log(calcAverage(3, 4, 5));
+// const calcAverage = (a, b ,c) => (a, b, c) / 3;
+// console.log(calcAverage(3, 4, 5));
 
-//2
 
-let scoreDolphins = calcAverage(44, 23,71);
-let scoreKoalas = calcAverage(65, 54, 27);
-console.log(scoreDolphins, scoreKoalas);
+// let scoreDolphins = calcAverage(44, 23,71);
+// let scoreKoalas = calcAverage(65, 54, 27);
+// console.log(scoreDolphins, scoreKoalas);
+
+
+// const checkWinner = function (avgDolhins, avgKoalas) {
+//     if(avgDolhins >= 2 * avgKoalas){
+//         console.log(`Dolphins win (${avgDolhins} vs ${avgKoalas})`);
+//     }
+//     else if(avgKoalas >= 2 * avgDolhins){
+//         console.log(`Koalas win (${avgKoalas} vs ${avgDolhins})`);
+//     }
+//     else{
+//         console.log('No team wins...');
+//     }
+// }
+
+// checkWinner(scoreDolphins, scoreKoalas);
 
 
 
