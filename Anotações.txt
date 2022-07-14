@@ -1,0 +1,27 @@
+Aula 39:
+
+- Em um array o primeiro valor da primeira posição é representado como "0" e o seguinte "1" e assim por diante:
+
+JS:
+
+const friends = ['Michael', 'Steven', 'Peter'];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2028);
+
+console.log(friends[0]);
+
+Console: Michael
+
+
+- O "lenght" serve para abrager o numero total de valores em um array:
+
+JS:
+
+const friends = ['Michael', 'Steven', 'Peter'];
+
+console.log(friends.length);
+
+Console: 3
+
+
