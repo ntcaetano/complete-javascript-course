@@ -1,6 +1,6 @@
 Aula 39:
 
-- Em um array o primeiro valor da primeira posição é representado como "0" e o seguinte "1" e assim por diante:
+- Em um array o primeiro elemento da primeira posição é representado como "0" e o seguinte "1" e assim por diante:
 
 JS:
 
@@ -14,7 +14,7 @@ console.log(friends[0]);
 Console: Michael
 
 
-- O "lenght" serve para abrager o numero total de valores em um array:
+- O "lenght" serve para abrager o numero total de elementos em um array:
 
 JS:
 
@@ -23,5 +23,44 @@ const friends = ['Michael', 'Steven', 'Peter'];
 console.log(friends.length);
 
 Console: 3
+
+Aula 40:
+
+- A função ".push" em um array serve para colocar um elemento no final dele.
+
+- A função ".unshift" em um array serve para colocar um elemento no começo dele.
+
+- A função ".pop" em um array serve para remover o último elemento dentro dele.
+
+- A função ".shift" em um array serve para remover o primeiro elemento dentro dele.
+
+Aula 42:
+
+- Existe uma forma mais viável de agrupar informações de um objeto do que em um Array. São as Objetos com chaves que funcionam como um agrupamento de propriedades:
+
+JS:
+
+Array:
+
+const jonasArray = [
+  'Jonas',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven']
+];
+
+Objeto com chaves:
+
+const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedtmann',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Michael', 'Peter', 'Steven']
+};
+
+* Dentro de um objeto com chaves diferente de um array, pode-se atribuir propriedades com valores. Logo pode-se chamar essas propriedades pela sintaxe.
+ 
 
 
