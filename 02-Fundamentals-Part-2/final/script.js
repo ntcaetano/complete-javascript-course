@@ -585,5 +585,5 @@ const calcAverage = function (arr) {
 }
 console.log(calcAverage([2, 3, 7]));
 console.log(calcAverage(totals));
-console.log(calcAverage(tips));
+console.log(calcAverage(tips)); 
 */
