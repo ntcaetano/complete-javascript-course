@@ -62,5 +62,30 @@ const jonas = {
 
 * Dentro de um objeto com chaves diferente de um array, pode-se atribuir propriedades com valores. Logo pode-se chamar essas propriedades pela sintaxe.
  
+Aula 43:
+
+- No JS o notação com ponto não consegue pegar o valor de uma propriedade se está declarada dentro do objeto, mas na notação com conchetes ele consegue pois por esse tipo de notação o valor é avaliado:
+
+JS notação normal:
+
+const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+
+  console.log(jonas.interestedIn)
+
+reposta alert: job
+
+resultado: undefined
+
+JS notação por conchetes:
+
+const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+
+  console.log(jonas[interestedI])
+
+resposta alert: job
+
+resultado: teacher 
+
+
 
 
