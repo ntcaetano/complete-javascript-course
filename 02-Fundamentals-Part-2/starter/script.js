@@ -338,3 +338,4 @@ HINT: Remember that an array needs a value in each position, and that value can 
 // for (let rep = 1; rep <= 10; rep++){
 //   console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
 // }
+
