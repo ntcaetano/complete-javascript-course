@@ -294,34 +294,34 @@ HINT: Remember that an array needs a value in each position, and that value can 
   // };
 
 
-const mark = {
-    fullName: 'Mark Miller',
-    mass: 78,
-    height: 1.69,
-    calcBMI: function () {
-      return this.bmi = this.mass / this.height ** 2;
-    }
-}
-const john = {
-    fullName: 'John Smith',
-    mass: 92,
-    height: 1.95,
-    calcBMI: function () {
-      return this.bmi = this.mass / this.height ** 2;
-    }
-}
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//       return this.bmi = this.mass / this.height ** 2;
+//     }
+// }
+// const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//       return this.bmi = this.mass / this.height ** 2;
+//     }
+// }
 
-mark.calcBMI();
-john.calcBMI();
+// mark.calcBMI();
+// john.calcBMI();
 
-console.log(mark.bmi, john.bmi);
+// console.log(mark.bmi, john.bmi);
 
-// "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
+// // "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
 
-if(mark.bmi > john.bmi) {
-  console.log(`${mark.fullName}'s BMI (${mark.bmi}) higher than ${john.fullName}'s (${john.bmi})`)
-} else if(john.bmi > mark.bmi) {
-  console.log(`${john.fullName}'s BMI (${john.bmi}) higher than ${mark.fullName}'s (${mark.bmi})`)
-}
+// if(mark.bmi > john.bmi) {
+//   console.log(`${mark.fullName}'s BMI (${mark.bmi}) higher than ${john.fullName}'s (${john.bmi})`)
+// } else if(john.bmi > mark.bmi) {
+//   console.log(`${john.fullName}'s BMI (${john.bmi}) higher than ${mark.fullName}'s (${mark.bmi})`)
+// }
 
 
