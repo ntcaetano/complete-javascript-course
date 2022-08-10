@@ -357,4 +357,4 @@ for (let i = 0; i < jonas.length; i++) {
   types.push(typeof jonas[i]);
 }
 
-console.log(types);s
+console.log(types);
