@@ -1,4 +1,4 @@
-Aula 39:
+//Aula 39
 
 - Em um array o primeiro elemento da primeira posição é representado como "0" e o seguinte "1" e assim por diante:
 
@@ -24,7 +24,7 @@ console.log(friends.length);
 
 Console: 3
 
-Aula 40:
+//Aula 40
 
 - A função ".push" em um array serve para colocar um elemento no final dele.
 
@@ -34,7 +34,7 @@ Aula 40:
 
 - A função ".shift" em um array serve para remover o primeiro elemento dentro dele.
 
-Aula 42:
+//Aula 42:
 
 - Existe uma forma mais viável de agrupar informações de um objeto do que em um Array. São as Objetos com chaves que funcionam como um agrupamento de propriedades:
 
@@ -62,7 +62,7 @@ const jonas = {
 
 * Dentro de um objeto com chaves diferente de um array, pode-se atribuir propriedades com valores. Logo pode-se chamar essas propriedades pela sintaxe.
  
-Aula 43:
+//Aula 43
 
 - No JS o notação com ponto não consegue pegar o valor de uma propriedade se está declarada dentro do objeto, mas na notação com conchetes ele consegue pois por esse tipo de notação o valor é avaliado:
 
@@ -86,6 +86,32 @@ resposta alert: job
 
 resultado: teacher 
 
+//Aula 47
 
+- Para fazer um laço for básico em javascript utilizamos um numero fixo para definir o tamanho do laço:
+
+JS:
+
+for (let rep = 1; rep <= 10; rep++){
+  console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+}
+
+ 
+* Mas se vamos fazer um laço para mostrar os todos elementos de um objeto utilizamos o 'lenght:
+
+JS:
+
+const jonas = [
+  'Jonas',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven'],
+  true
+];
+
+for (let i = 0; i < jonas.length; i++) {
+  console.log(jonas[i])
+}
 
 
